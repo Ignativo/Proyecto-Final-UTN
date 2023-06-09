@@ -96,6 +96,35 @@ p, h1 {
     display: initial;
 } 
 
+
+#buscar-form {
+    display: flex;
+}
+
+#buscar-input {
+    padding: 10px;
+    border: none;
+    border-radius: 21px 0px 0px 21px;
+}
+
+#searchbuscarinput:focus {
+    outline: none;
+}
+
+#buscar-form button {
+    padding: 5px 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 0px 21px 21px 0px;
+    cursor: pointer;
+}
+
+#buscar-form button:hover {
+    background-color: #23527c;
+}
+
+
 /* Cards Diseña */
 .tabs--content {
     display: flex;
