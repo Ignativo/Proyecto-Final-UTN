@@ -4,33 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/iconn.ico">   
     <link rel="stylesheet" href="css/stilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,700&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
     <title>Inicio Decorador</title>
 </head>
 <body>
     <header>
-
+        <div>
+            <img src="images/" alt="">
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Decoraciones</a></li>
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Galeria</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
+            <button>logear</button>
         </nav>
 
     </header>
     <main>  
-        <div>
-            <h1>Welcome</h1>
-            <p>Somos decoradores</p>
-            <p>Web de busqueda de decoraciones</p>
-        </div>
+        <section>
+            <div>
+                <h2>Busca tu decoracion en esta web</h2>
+                <p>Perfecto lugar para buscar tus cosas al momento de renovar tu casa o habitacion.</p>
+                <button>Logeate </button>
+                <button>Registrate</button>
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="tabs">
+                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab1" checked>
+                <label for="tab1" class="tabs--pestania">Todos</label>
+                <div class="tabs--content">
+
+                    <!--  Ver que poner aqui  -->
+
+                </div>
+                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab2">
+                <label for="tab2" class="tabs--pestania">Casa</label>
+                <div class="tabs--content">
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/casa1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Frutilla</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$15.99</span>
+                        <img src="images/casa2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Celeste</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$16.99</span>
+                        <img src="images/casa3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Pequeño</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/casa4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$12.99</span>
+                        <img src="images/casa5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Mesa Circular</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$25.99</span>
+                        <img src="images/casa6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Placas Pared</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab3">
+                <label for="tab3" class="tabs--pestania">Jardin</label>
+                <div class="tabs--content">
+                    <div class="card">
+                        <span class="product-price">$11.99</span>
+                        <img src="images/jardin1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta Blanca</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$13.99</span>
+                        <img src="images/jardin2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$10.99</span>
+                        <img src="images/jardin3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta pentagono</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$9.99</span>
+                        <img src="images/jardin4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta Tringular</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$12.99</span>
+                        <img src="images/jardin5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta Colgante</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$13.99</span>
+                        <img src="images/jardin6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Maseta Blanca Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab4">
+                <label for="tab4" class="tabs--pestania">Habitacion</label>
+                <div class="tabs--content">
+                    <div class="card">
+                        <span class="product-price">$18.99</span>
+                        <img src="images/habita1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">4X Cojines aves</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$7.99</span>
+                        <img src="images/habita2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Almohadas Nubes</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$8.99</span>
+                        <img src="images/habita3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Pantalla Blanca Simple</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$9.99</span>
+                        <img src="images/habita4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Pantalla Banca Doble</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$10.99</span>
+                        <img src="images/habita5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Lampara Negra</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$15.99</span>
+                        <img src="images/habita6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Cortina Gris</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            <li>
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Buscar">
+                    <button type="submit">Buscar</button>
+                </form>
+            </li>
+            
+        </section>
+        <section>
+
+        </section>
+
     </main>
     <footer> 
         <!-- Made for: Ignacio Mendieta  -->
+
     </footer>
 </body>
 </html>

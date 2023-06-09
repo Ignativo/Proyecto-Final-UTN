@@ -16,10 +16,12 @@ body {
 }  
 
 nav {
-    background-color: black;
-    padding: 10px;
+    background-color: white;
+    padding: 20px 24px;
     display: flex;
     justify-content: center;
+    top: 0;
+    left: 0;
 }
 
 ul {
@@ -34,16 +36,18 @@ li {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
 
 a:hover {
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
+    border-radius: 16px;
+
 }
 
 body { 
@@ -51,23 +55,89 @@ body {
 }
 
 
-div {
-    border: solid 10px whitesmoke ;
-    width: 700px;
-    height: 200px; 
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
 p, h1 {
     color: white;
-    text-align: center;
-    font-size: 1,5em;
+    font-size: 16px;
 }
 
+/* Pestañas para comprar */
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    
+}
 
+.tabs--pestania {
+    padding: 10px 16px;
+    cursor: pointer;
+}
 
+.tabs--elegido {
+    display: none;
+}
+
+.tabs--content {
+    order: 1;
+    width: 100%;
+    font-size: 1em;
+    display: none;
+    
+}
+
+.tabs--elegido:checked + .tabs--pestania {
+    font-weight: bold;
+    color: #009578;
+    border: 2px solid #009578;
+    border-radius: 16px;
+}
+
+.tabs--elegido:checked + .tabs--pestania + .tabs--content {
+    display: initial;
+} 
+
+/* Cards Diseña */
+.tabs--content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    margin: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 21px;
+}
+
+.card-info {
+    margin-top: 10px;
+}
+
+.compr-button {
+    padding: 8px 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.compr-button:hover {
+    background-color: #23527c;
+}
