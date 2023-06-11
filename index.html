@@ -14,29 +14,43 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="images/" alt="">
-        </div>
         <nav>
-            <ul>
-                <li><a href="#">Decoraciones</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            <button>logear</button>
+            <div class="navbar-izq">
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="#">Inicio</a>
+                        <a href="pages/galeria.html">Galeria</a>
+                        <a href="pages/decoraciones.html">Decoraciones</a>
+                        <a href="pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <a href="#" class="logito">
+                    <img src="images/icon.png" alt="Logo de mi sitio web">
+                </a>
+            </div>
+            <div class="navbar-dere">
+                <button class="login-bton">Login</button>
+            </div>
         </nav>
 
     </header>
     <main>  
         <section>
-            <div>
-                <h2>Busca tu decoracion en esta web</h2>
-                <p>Perfecto lugar para buscar tus cosas al momento de renovar tu casa o habitacion.</p>
-                <button>Logeate </button>
-                <button>Registrate</button>
-            </div>
-            <div>
-                <img src="" alt="">
+            <div class="principio">
+                <div class="text-princip">
+                    <h1>Busca tu decoracion en esta web.</h1>
+                    <p>Perfecto lugar para buscar tus cosas al momento de renovar tu casa o habitacion.</p>
+                    <div>
+                        <button class="login-bton">Logeate </button>
+                        <button class="login-bton">Registrate</button>
+                    </div>
+                </div>
+                <div class="image-princip">
+                    <img src="images/fondo.jpg" alt="Cuarto moderno con colores pasteles">
+                </div>
             </div>
         </section>
         <section>
