@@ -75,7 +75,7 @@ nav {
     display: block;
 }
 
-.logito img {
+.logito img, .footer-logo img {
     height: 40px;
 }
 
@@ -123,6 +123,8 @@ nav {
 .image-princip img {
     width: 550px;
     border-radius: 21px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -235,4 +237,31 @@ nav {
 
 .compr-button:hover {
     background-color: #23527c;
+}
+
+
+/* Footer */
+
+.futer {
+    background-color: white;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 18px;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.futer h4, .futer span{
+    text-decoration: none;
+    color: black ;
+}
+
+.futerSub a {
+    text-decoration: none;
+    color: black;
+    padding: 11px 15px;
 }
