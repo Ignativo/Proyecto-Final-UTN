@@ -1,4 +1,4 @@
-const botonAviso = document.getElementById("cerrar-aviso");
+const botonAviso = document.getElementById ("cerrar-aviso");
 const ventanaModal = document.getElementById("ventana-modal");
 const fondoModal = document.getElementById("fondo-modal");
 
@@ -32,14 +32,14 @@ function playErrorSound() {
 
 
 
-/* Boton login y register */
+/* Boton login y register ((login en navbar)) */
 
 let loginBtn = document.getElementById('login-btn');
 let loginModal = document.getElementById('login-modal');
 let closeBtn = document.getElementById('close-btn');
 let registerLink = document.getElementById('register-link');
 let registerModal = document.getElementById('register-modal');
-let closeBtnRegister = document.getElementById('close-btn-register');
+let closeBtnRegister = document.getElementById('close-register');
 let loginLink = document.getElementById('login-link');
 let loginSubmit = document.getElementById('login-submit');
 let registerSubmit = document.getElementById('register-submit');
@@ -67,12 +67,23 @@ loginLink.addEventListener('click', function() {
 });
 
 loginSubmit.addEventListener('click', function() {
-  // Aquí puedes agregar la lógica para el inicio de sesión
     loginModal.style.display = 'none';
 });
 
 registerSubmit.addEventListener('click', function() {
-  // Aquí puedes agregar la lógica para el registro
     registerModal.style.display = 'none';
-    loginModal.style.display = 'block'; // Vuelve al modal de inicio de sesión
 });
+
+/* botones en incio de login y registro */
+let loginBtonDos = document.getElementById('login-btonDos')
+let registerBtn = document.getElementById('register-bton');
+
+loginBtonDos.addEventListener('click', function() {
+    loginModal.style.display = 'block';
+});
+
+registerBtn.addEventListener('click', function() {
+    registerModal.style.display = 'block';
+});
+
+
