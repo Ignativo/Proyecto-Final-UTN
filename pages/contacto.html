@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,700&display=swap" rel="stylesheet">
-    <script src="../js/script.js"></script>
+    <script defer src="../js/script.js"></script>
     <title>Contactos</title>
 </head>
 <body>
@@ -32,13 +32,58 @@
                 </a>
             </div>
             <div class="navbar-dere">
-                <button class="login-bton">Login</button>
+                <button class="login-bton" id="login-btn">Login</button>
             </div>
         </nav>
 
     </header>
     <main>
-
+        <section class="holder contacto container">
+            <form ction="#" method="#" class="formulario ">
+            <div>
+                <h2>Contacto Rápido</h2>
+            </div>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="tel">Telefono</label>
+                    <input type="tel" name="tel" required >
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje"></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">¿Desea recibir ofertas ?</label>
+                </div>
+                
+                <button type="submit" id="btnEnviar" name="btnEnviar" value="enviar"
+						class="mt-3 mb-5"> ENVIAR</button>
+                <!-- <div>
+                    <button type="submit" id="enviar" class="enviar">Enviar</button>
+                </div> -->
+            </form>
+            <div id="alerta">
+            </div>
+            <div class="datos">
+                <h2>Otras vias de comunicación</h2>
+                <p>También puede contactarse con nosotros usando los siguientes medios</p>
+                <ul>
+                    <li>Teléfono: 43562788</li>
+                    <li>Email: contacto@transportex.com.ar</li>
+                    <li>Facebook:</li>
+                    <li>Twitter:</li>
+                    <li>Skype</li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
 

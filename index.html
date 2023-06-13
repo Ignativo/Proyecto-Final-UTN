@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="navbar-dere">
-                <button class="login-bton">Login</button>
+                <button class="login-bton" id="login-btn">Login</button>
             </div>
         </nav>
 
@@ -49,6 +49,32 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section>
+            <div id="login-modal" class="modal">
+                <div class="modal-content">
+                    <span id="close-btn" class="close">x</span>
+                    <h2>Iniciar sesión</h2>
+                    <!-- Aquí puedes agregar tus campos de inicio de sesión -->
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button id="login-submit">Iniciar sesión</button>
+                    <p>¿No tienes una cuenta? <a href="#" id="register-link">Regístrate</a></p>
+                </div>
+            </div>
+
+            <div id="register-modal" class="modal">
+                <div class="modal-content">
+                    <span id="close-btn" class="close">x</span>
+                    <h2>Registro</h2>
+                    <!-- Aquí puedes agregar tus campos de registro -->
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo electrónico">
+                    <input type="password" placeholder="Contraseña">
+                    <button id="register-submit">Registrarse</button>
+                    <p>¿Ya tienes una cuenta? <a href="#" id="login-link">Iniciar sesión</a></p>
+                </div>
+            </div>
         </section>  
         <section>
             <div class="principio">
@@ -56,8 +82,8 @@
                     <h1>Busca tu decoracion en esta web.</h1>
                     <p>Perfecto lugar para buscar tus cosas al momento de renovar tu casa o habitacion.</p>
                     <div>
-                        <button class="login-bton">Logeate </button>
-                        <button class="login-bton">Registrate</button>
+                        <button class="login-bton" id="login-btn">Logeate</button>
+                        <button class="login-bton" id="login-btn">Registrate</button>
                     </div>
                 </div>
                 <div class="image-princip">
