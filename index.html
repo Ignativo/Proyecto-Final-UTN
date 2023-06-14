@@ -17,7 +17,7 @@
         <nav>
             <div class="navbar-izq">
                 <div class="dropdown">
-                    <button class="dropbtn">Menu</button>
+                    <button class="dropbtn">Menú</button>
                     <div class="dropdown-content">
                         <a href="#">Inicio</a>
                         <a href="pages/galeria.html">Galeria</a>
@@ -54,7 +54,6 @@
                 <div class="modal-content">
                     <span id="close-btn" class="close">x</span>
                     <h2>Iniciar sesión</h2>
-                    <!-- Aquí puedes agregar tus campos de inicio de sesión -->
                     <input type="text" placeholder="Usuario">
                     <input type="password" placeholder="Contraseña">
                     <button id="login-submit">Iniciar sesión</button>
@@ -65,7 +64,6 @@
                 <div class="modal-content">
                     <span id="close-register" class="close">x</span>
                     <h2>Registro</h2>
-                    <!-- Aquí puedes agregar tus campos de registro -->
                     <input type="text" placeholder="Nombre">
                     <input type="email" placeholder="Correo electrónico">
                     <input type="password" placeholder="Contraseña">
@@ -77,10 +75,10 @@
         <section>
             <div class="principio">
                 <div class="text-princip">
-                    <h1>Busca tu decoracion en esta web.</h1>
-                    <p>Perfecto lugar para buscar tus cosas al momento de renovar tu casa o habitacion.</p>
+                    <h1>Busca tu decoración en esta web.</h1>
+                    <p>Perfecto lugar para buscar tus cosas al momento de renovar tu hogar o habitación.</p>
                     <div>
-                        <button id="login-bton" class="login-bton">Login</button>
+                        <button id="login-btonDos" class="login-bton">Logeate</button>
                         <button id="register-bton" class="login-bton">Registrate</button>
                     </div>
                 </div>
@@ -89,18 +87,171 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="compra">
             <div class="tabs">
-                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab1" checked>
-                <label for="tab1" class="tabs--pestania">Todos</label>
-                <div class="tabs--content">
-
-                    <!-- Ver que poner aqui  --> 
-
+                <input type="radio" class="tabsRadio" name="decoraciones" id="tab1" checked>
+                <label for="tab1" class="tabsLabel">Todos</label>
+                <div class="tabsContainr">
+                    <div class="tabsContent">
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/jardin1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Frutilla</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$15.99</span>
+                        <img src="images/casa2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Celeste</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$16.99</span>
+                        <img src="images/habita3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Pequeño</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/habita4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$12.99</span>
+                        <img src="images/casa5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Mesa Circular</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$25.99</span>
+                        <img src="images/jardin6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Placas Pared</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/habita1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Frutilla</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$15.99</span>
+                        <img src="images/jardin2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Celeste</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$16.99</span>
+                        <img src="images/casa3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Pequeño</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/jardin4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$12.99</span>
+                        <img src="images/habita5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Mesa Circular</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$25.99</span>
+                        <img src="images/casa6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Placas Pared</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/casa1.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Frutilla</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$15.99</span>
+                        <img src="images/habita2.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Celeste</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$16.99</span>
+                        <img src="images/jardin3.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Pequeño</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$19.99</span>
+                        <img src="images/casa4.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Sofa Gris Grande</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$12.99</span>
+                        <img src="images/jardin5.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Mesa Circular</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$25.99</span>
+                        <img src="images/habita6.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Placas Pared</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="product-price">$99.99</span>
+                        <img src="images/fondo.jpg" alt="Imagen del producto">
+                        <div class="card-info">
+                            <span class="product-name">Servicio Completo</span>
+                            <button class="compr-button">Comprar</button>
+                        </div>
+                    </div>
+                    
+                    </div>
                 </div>
-                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab2">
-                <label for="tab2" class="tabs--pestania">Casa</label>
-                <div class="tabs--content">
+                <input type="radio" class="tabsRadio" name="decoraciones" id="tab2">
+                <label for="tab2" class="tabsLabel">Casa</label>
+                <div class="tabsContainr">
+                    <div class="tabsContent">
                     <div class="card">
                         <span class="product-price">$19.99</span>
                         <img src="images/casa1.jpg" alt="Imagen del producto">
@@ -149,10 +300,12 @@
                             <button class="compr-button">Comprar</button>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab3">
-                <label for="tab3" class="tabs--pestania">Jardin</label>
-                <div class="tabs--content">
+                <input type="radio" class="tabsRadio" name="decoraciones" id="tab3">
+                <label for="tab3" class="tabsLabel">Jardín</label>
+                <div class="tabsContainr">
+                    <div class="tabsContent">
                     <div class="card">
                         <span class="product-price">$11.99</span>
                         <img src="images/jardin1.jpg" alt="Imagen del producto">
@@ -201,10 +354,12 @@
                             <button class="compr-button">Comprar</button>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <input type="radio" class="tabs--elegido" name="tabs-example" id="tab4">
-                <label for="tab4" class="tabs--pestania">Habitacion</label>
-                <div class="tabs--content">
+                <input type="radio" class="tabsRadio" name="decoraciones" id="tab4">
+                <label for="tab4" class="tabsLabel">Habitacion</label>
+                <div class="tabsContainr">
+                    <div class="tabsContent">
                     <div class="card">
                         <span class="product-price">$18.99</span>
                         <img src="images/habita1.jpg" alt="Imagen del producto">
@@ -254,7 +409,7 @@
                         </div>
                     </div>
                 </div>
-
+                </div>
             <div>
                 <form id="buscar-form">
                     <input type="text" id="buscar-input" placeholder="Buscar">
@@ -263,10 +418,6 @@
             </div>
             
         </section>
-        <section>
-
-        </section>
-
     </main>
     <footer>
     <div class="futer">
@@ -281,10 +432,6 @@
                 <a href="https://www.facebook.com/" target="_blank">| Facebook</a>
                 <a href="https://twitter.com/" target="_blank">| Twitter</a>
                 <a href="https://www.tiktok.com/" target="_blank">| TikTok</a>
-        </div>
-        <div>
-    
-
         </div>
     </div>
     <!-- Made for: Ignacio Mendieta  -->

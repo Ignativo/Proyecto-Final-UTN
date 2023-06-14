@@ -34,7 +34,7 @@ function playErrorSound() {
 
 /* Boton login y register ((login en navbar)) */
 
-let loginBtn = document.getElementById('login-btn');
+var loginBtn = document.getElementById('login-btn');
 let loginModal = document.getElementById('login-modal');
 let closeBtn = document.getElementById('close-btn');
 let registerLink = document.getElementById('register-link');
@@ -75,7 +75,7 @@ registerSubmit.addEventListener('click', function() {
 });
 
 /* botones en incio de login y registro */
-let loginBtonDos = document.getElementById('login-btonDos')
+let loginBtonDos = document.getElementById('login-btonDos');
 let registerBtn = document.getElementById('register-bton');
 
 loginBtonDos.addEventListener('click', function() {
